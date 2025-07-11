@@ -1,69 +1,75 @@
-# 📊 HR Analytics Dashboard
+# Human Resource Dashboard (India) 🇮🇳
 
-This project presents an interactive **HR Analytics Dashboard** built using **Tableau**, based on a synthetic dataset generated with realistic Indian demographic and job attributes.
+This project is an interactive HR dashboard created using **Tableau**, inspired by [Baraa Khatib Salkini](https://www.linkedin.com/in/baraa-khatib-salkini/)'s US-based dashboard, but adapted entirely for **India-specific data and insights**. It provides deep insights into employee demographics, salary distribution, job roles, education levels, hiring status, and more.
 
----
+🔗 **Live Dashboard**: [View on Tableau Public](https://public.tableau.com/app/profile/rohith.ap/viz/HRDashboard_17516479522100/HRSummary?publish=yes)
 
-## 🔍 Dashboard Overview
-
-The dashboard provides insights into:
-
-- 👥 Employee distribution by department, region, and gender  
-- 💼 Job roles and educational qualifications  
-- 📈 Salary trends across age groups, education levels, and performance ratings  
-- 📍 Location-wise workforce strength  
-- 📉 Attrition trends and termination timelines  
+🔗 **GitHub Repo**: [Human-Resource-Tableau-Dashboard](https://github.com/rohithap0819/Human-Resource-Tableau-Dashboard)
 
 ---
 
-## 📌 Live Dashboard
+## 🔍 Features
 
-👉 [**View the Interactive HR Dashboard on Tableau Public**](https://public.tableau.com/app/profile/rohith.ap/viz/HRDashboard_17516479522100/HRSummary?publish=yes)
+- **Overview Dashboard**:
+  - Hired vs Terminated employees
+  - Gender and age demographics
+  - Department and location-based analysis
+  - Salary comparisons by education level
+  - Performance vs Education matrix
+
+- **Employee Details Page**:
+  - Advanced filters for:
+    - Job title, Department
+    - Location, State, City
+    - Hire/Term dates
+    - Salary and tenure sliders
+  - Full employee table with:
+    - Job details
+    - Salary info
+    - Employment status
+    - Length of employment
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📊 Screenshots
 
-- **Tableau Public** for data visualization  
-- **Python** with `pandas`, `numpy`, `faker` for synthetic data generation  
-- **GitHub** for project versioning and sharing
+### 📌 Overview Dashboard  
+![Overview](https://github.com/rohithap0819/Human-Resource-Tableau-Dashboard/blob/main/Dashboard_Images/Overview_Dashboard.png) 
+
+### 📌 Employee List (Details Page)  
+![Employee List](https://github.com/rohithap0819/Human-Resource-Tableau-Dashboard/blob/main/Dashboard_Images/Employee_List.png) 
 
 ---
 
 ## 📁 Dataset
 
-The dataset used in this project includes:
-
-- Employee ID, Name, Gender  
-- City, State, and Indian Region  
-- Department, Job Title, Education Level  
-- Hire Date, Termination Date, Performance Rating  
-- Adjusted Salary, Overtime status  
-- Aadhaar-like and PAN-style IDs for realism  
-
-➡️ You can find the dataset in this repo under:  
-`HumanResources_India_Enhanced.csv`
+- Created a **synthetic HR dataset** with:
+  - Indian names
+  - Aadhaar-like and PAN-like IDs
+  - Indian cities and states
+  - Region tagging (North, South, etc.)
+  - Localized company names and job titles
 
 ---
 
-## 🚀 How to Use
+## 💡 Inspiration
 
-1. Download the dataset: `HumanResources_India_Enhanced.csv`
-2. Open the Tableau workbook or connect the CSV to your own analysis tool
-3. Explore trends, build insights, or extend the dashboard further!
+Thanks to **[Baraa Khatib Salkini](https://www.linkedin.com/in/baraa-khatib-salkini/)** for the original US-based dashboard concept. This project modifies and localizes it for **Indian data**, providing relevant regional insights.
 
 ---
 
-## 🤝 Connect
+## 🚀 Publish & Share
 
-Feel free to reach out if you have suggestions or want to collaborate:
-
-- [LinkedIn](https://www.linkedin.com/in/rohith-ap)
-- [Tableau Public Profile](https://public.tableau.com/app/profile/rohith.ap)
+- Published using **Tableau Public**
+- Shared on **GitHub**
+- Designed for portfolio showcase and HR analytics practice
 
 ---
 
-## 📝 License
+## 📬 Contact
 
-This project is open-source and available under the [MIT License](LICENSE).
+Feel free to connect or give feedback!
 
+**Rohith A P**  
+[LinkedIn](https://www.linkedin.com/in/rohith-ap/)  
+[GitHub](https://github.com/rohithap0819)
